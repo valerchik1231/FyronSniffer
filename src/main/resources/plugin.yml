@@ -1,0 +1,10 @@
+name: FyronSniffer
+version: '1.0-SNAPSHOT'
+main: ru.valerchik.fyronsniffer.FyronSniffer
+api-version: '1.20'
+load: STARTUP
+authors: [ valerchik123 ]
+
+commands:
+  fyronsniffer:
+    aliases: [fs]

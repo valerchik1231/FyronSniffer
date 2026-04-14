@@ -1,0 +1,23 @@
+metrics: true #Anonymous metrics help us improve the plugin.
+
+sniffer:
+  # С определенным шансом Нюхач будет выкапывать обычные ванильные предметы, если выключить, то будут только добавленные
+  # The Sniffer can dig up vanilla items with a certain chance. If disabled, only custom-added items will be used.
+  vanilla-enabled: true
+
+loot:
+  diamond:
+    material: 'DIAMOND'
+    chance: 35.0
+    minimum-amount: 1
+    maximum-amount: 1
+  emerald:
+    material: 'EMERALD'
+    chance: 35.0
+    minimum-amount: 1
+    maximum-amount: 1
+  ancient_debris:
+    material: 'ANCIENT_DEBRIS'
+    chance: 5.0
+    minimum-amount: 1
+    maximum-amount: 1
